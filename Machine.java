@@ -11,7 +11,7 @@ public class Machine implements Executer {
         result.println("Machine.init()");
         // give the machine a name
         result.setText("tspan_java_machine","Hot Chocolate",0);
-        result.setColor("tspan_java_machine","#c7296bff",0);
+        result.setColor("tspan_java_machine","#c77d29ff",0);
         result.setAudio("startup.mp3",0);
     }
     public void doClick(PostResult result, String id){
