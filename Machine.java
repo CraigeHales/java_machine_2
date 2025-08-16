@@ -10,8 +10,8 @@ public class Machine implements Executer {
     public void init(PostResult result){
         result.println("Machine.init()");
         // give the machine a name
-        result.setText("tspan_java_machine","Ice Cold Drinks",0);
-        result.setColor("tspan_java_machine","#3366ff",0);
+        result.setText("tspan_java_machine","Hot Chocolate",0);
+        result.setColor("tspan_java_machine","#fd0000ff",0);
         result.setAudio("startup.mp3",0);
     }
     public void doClick(PostResult result, String id){
