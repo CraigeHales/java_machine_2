@@ -16,7 +16,7 @@ public class Machine implements Executer {
     }
     public void doClick(PostResult result, String id){
         result.println("you pressed: " + id);
-        if (id != "initNoReload") {
+        if ( ! id.equals("initNoReload") ) {
            result.setAudio("keypress.mp3",0);
         }
     }
