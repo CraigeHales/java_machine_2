@@ -9,9 +9,12 @@ public class Machine implements Executer {
     }
     public void init(PostResult result){
         result.println("Machine.init()");
+        // which one are we?
+        result.setText("tspan_load","Team 1",0);
         // give the machine a name
         result.setText("tspan_java_machine","Hot Chocolate",0);
         result.setColor("tspan_java_machine","#c77d29ff",0);
+        
         result.setAudio("startup.mp3",0);
     }
     public void doClick(PostResult result, String id){
