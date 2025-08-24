@@ -16,6 +16,7 @@ public class Machine implements Executer {
         result.setColor("tspan_java_machine","#c77d29ff",0);
 
         result.setText("tspan_variety0","Milk Choc",0);
+        result.setText("tspan_variety1","Cold Choc",0);
         
         result.setAudio("startup.mp3",0);
     }
