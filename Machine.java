@@ -17,6 +17,7 @@ public class Machine implements Executer {
 
         result.setText("tspan_variety0","Milk Choc",0);
         result.setText("tspan_variety1","Cold Choc",0);
+        result.setText("tspan_variety2","Hot Choc",0);
         
         result.setAudio("startup.mp3",0);
     }
@@ -24,6 +25,9 @@ public class Machine implements Executer {
         result.println("you pressed: " + id);
         if ( ! id.equals("initNoReload") ) {
            result.setAudio("keypress.mp3",0);
+        }
+        if ( id.equals("idDispenserBackground")) {
+            result."idIceCubes"
         }
     }
 }
