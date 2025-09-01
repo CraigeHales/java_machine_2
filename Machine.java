@@ -27,7 +27,7 @@ public class Machine implements Executer {
            result.setAudio("keypress.mp3",0);
         }
         if ( id.equals("idDispenserBackground")) {
-            result."idIceCubes"
+            //result."idIceCubes"
         }
     }
 }
