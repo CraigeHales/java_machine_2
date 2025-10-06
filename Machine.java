@@ -33,6 +33,9 @@ public class Machine implements Executer {
         if ( ! id.equals("initNoReload") ) {
            result.setAudio("keypress.mp3",0);
         }
+        if ( id.equals("g_mc_visa")) {
+            result.setAudio("thumpecho.mp3",0);
+        }
         if ( id.equals("idDispenserBackground")) {
             //result."idIceCubes"
         }
