@@ -18,6 +18,8 @@ public class Machine implements Executer {
         result.setText("tspan_variety0","Milk Choc",0);
         result.setText("tspan_variety1","Cold Choc",0);
         result.setText("tspan_variety2","Hot Choc",0);
+        result.setText("tspan_variety4","Cold H₂O",0);
+        result.setText("tspan_variety5","Hot H₂O",0);
 
         result.setText("tspan_add0","Cream",0);
         result.setText("tspan_add1","Mallows",0);
