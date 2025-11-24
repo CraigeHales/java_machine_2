@@ -52,6 +52,8 @@ public class Machine implements Executer {
 
             result.setAudio("plop.mp3",0);
 
+            result.setOpacity("idGlassCup", "1", 2500); 
+
         }
     }
 }
