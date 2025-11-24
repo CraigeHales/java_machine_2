@@ -40,19 +40,19 @@ public class Machine implements Executer {
             //result."idIceCubes"
         }
         if (id.equals("g_variety0")) {
-            result.setOpacity("idIceCubes", "0", 1500);
-            result.setOpacity("idGlassCup", "0", 2000); // remove cup last
-            result.setOpacity("idLimeSlice", "0", 500);
-            result.setOpacity("idLemonSlice", "0", 1000);
-            result.setOpacity("idCaffeineMolecule", "0", 200);
-            result.setOpacity("idSugarMolecule", "0", 700);
-            result.setTransform("idVanillacreamAddinTransform", "matrix(1,0,0,0.001,0,274)", 0); // hide down
-            result.setTransform("idLiquidDrinkTransform", "matrix(1,0,0,0.001,0,274)", 0); // hide down
-            result.setTransform("idChocolateAddinTransform", "matrix(1,0,0,0.001,0,274)", 0); // hide down
+            // result.setOpacity("idIceCubes", "0", 1500);
+            // result.setOpacity("idGlassCup", "0", 2000); // remove cup last
+            // result.setOpacity("idLimeSlice", "0", 500);
+            // result.setOpacity("idLemonSlice", "0", 1000);
+            // result.setOpacity("idCaffeineMolecule", "0", 200);
+            // result.setOpacity("idSugarMolecule", "0", 700);
+            // result.setTransform("idVanillacreamAddinTransform", "matrix(1,0,0,0.001,0,274)", 0); // hide down
+            // result.setTransform("idLiquidDrinkTransform", "matrix(1,0,0,0.001,0,274)", 0); // hide down
+            // result.setTransform("idChocolateAddinTransform", "matrix(1,0,0,0.001,0,274)", 0); // hide down
 
-            result.setAudio("plop.mp3",0);
+            // result.setAudio("plop.mp3",0);
 
-            result.setOpacity("idGlassCup", "1", 2500); 
+            // result.setOpacity("idGlassCup", "1", 2500); 
 
         }
     }
