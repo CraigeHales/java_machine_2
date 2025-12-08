@@ -58,6 +58,7 @@ public class Machine implements Executer {
         result.setText("tspan_load","T2",0);
         // give the machine a name
         result.setText("tspan_java_machine","Hot Chocolate Machine",0);
+        result.setFontSize("text_java_machine","48px",0);
         result.setColor("tspan_java_machine","#3366ff",0);
         // initialize the rectangular selection buttons
         for(int i = 0; i<selection.length; i=i+1){
