@@ -32,6 +32,7 @@ public class Machine implements Executer {
         // state is shared as well.
         Addon addIce = new Addon(nothing,0,ice,40,warm,0);
         Addon addSpice = new Addon(nothing,0,cinnamon,40,nutmeg,0);
+        Addon addSprinkles = new Addon(nothing,0,red,0,blue,0);
         Addon addMarshMallow = new Addon(nothing,0,marshMal,25,whipCream,35);
         Addon addCaffeine = new Addon(nothing,0,caffeine,0,decaf,10);
         Addon addSugar = new Addon(nothing,0,sugar,30,unsweet,0,diet,50);
