@@ -20,6 +20,10 @@ public class Machine implements Executer {
     final String vanilla = "Vanilla";
     final String nothing = "?";
     final String decaf = "Decaf";
+    final String cinnamon = "Cinnamon";
+    final String nutmeg = "Nutmeg";
+    final String marshMal = "Marsh Mallows";
+    final String whipCream = "Whipped Cream";
  //   static Coins coins = null;
     public Machine(/*PostResult result*/){
         // there are more addon possibilities than buttons; each selection will
@@ -27,8 +31,8 @@ public class Machine implements Executer {
         // its current state; if it is shared between two selections then the
         // state is shared as well.
         Addon addIce = new Addon(nothing,0,ice,40,warm,0);
-        Addon addSpice = new Addon(nothing,0,Cinnamon,40,Nutmeg,0);
-        Addon addMarshMallow = new Addon(nothing,0,MarshMal,25,WhipCream,35);
+        Addon addSpice = new Addon(nothing,0,cinnamon,40,nutmeg,0);
+        Addon addMarshMallow = new Addon(nothing,0,marshMal,25,whipCream,35);
         Addon addCaffeine = new Addon(nothing,0,caffeine,0,decaf,10);
         Addon addSugar = new Addon(nothing,0,sugar,30,unsweet,0,diet,50);
         Addon addLime = new Addon(nothing,0,lime,10,nothanks,0);
