@@ -20,6 +20,8 @@ public class Machine implements Executer {
     final String vanilla = "Vanilla";
     final String nothing = "?";
     final String decaf = "Decaf";
+    final String red = "Red";
+    final String blue = "Blue";
     final String cinnamon = "Cinnamon";
     final String nutmeg = "Nutmeg";
     final String marshMal = "Marsh Mallows";
