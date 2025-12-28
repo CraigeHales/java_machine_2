@@ -27,6 +27,8 @@ public class Machine implements Executer {
         // its current state; if it is shared between two selections then the
         // state is shared as well.
         Addon addIce = new Addon(nothing,0,ice,40,warm,0);
+        Addon addSpice = new Addon(nothing,0,Cinnamon,40,Nutmeg,0);
+        Addon addMarshMallow = new Addon(nothing,0,MarshMal,25,WhipCream,35)
         Addon addCaffeine = new Addon(nothing,0,caffeine,0,decaf,10);
         Addon addSugar = new Addon(nothing,0,sugar,30,unsweet,0,diet,50);
         Addon addLime = new Addon(nothing,0,lime,10,nothanks,0);
@@ -34,10 +36,10 @@ public class Machine implements Executer {
         Addon addChocolate = new Addon(nothing,0,chocolate,50,nothanks,0);
         Addon addVanilla = new Addon(nothing,0,vanilla,60,nothanks,0);
         selection = new Selection[6];
-        selection[0] = new Selection("Coke","variety0",//button label, internal variety ID
+        selection[0] = new Selection("Hot Choc","variety0",//button label, internal variety ID
             "#ffffff","#ff3333",// button text and background
             175,20,// price, nStock
-            addIce,addCaffeine,addSugar,// possible addons 
+            addMarshMallow,addSprinkles,addSpice,// possible addons 
             "#351313",".87");// liquid color and transparency
         selection[1] = new Selection("7-Up","variety1","#333333","#66ff66",
             165,20,addIce,addLime,addSugar,"#005500",".11");
