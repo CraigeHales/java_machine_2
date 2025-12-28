@@ -32,9 +32,9 @@ public class Machine implements Executer {
         // its current state; if it is shared between two selections then the
         // state is shared as well.
         Addon addIce = new Addon(nothing,0,ice,40,warm,0);
-        Addon addSpice = new Addon(nothing,0,cinnamon,40,nutmeg,0);
-        Addon addSprinkles = new Addon(nothing,0,sprinks,0);
-        Addon addMarshMallow = new Addon(nothing,0,marshMal,25,whipCream,35);
+        Addon addSpice = new Addon(nothing,0,cinnamon,40,nutmeg,0,nothanks,0);
+        Addon addSprinkles = new Addon(nothing,0,sprinks,0,nothanks,0);
+        Addon addMarshMallow = new Addon(nothing,0,marshMal,25,whipCream,35,nothanks,0);
         Addon addCaffeine = new Addon(nothing,0,caffeine,0,decaf,10);
         Addon addSugar = new Addon(nothing,0,sugar,30,unsweet,0,diet,50);
         Addon addLime = new Addon(nothing,0,lime,10,nothanks,0);
