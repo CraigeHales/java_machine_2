@@ -21,10 +21,10 @@ public class Machine implements Executer {
     final String nothing = "?";
     final String decaf = "Decaf";
     final String sprinks = "Sprinks";
-    final String cinnamon = "Cinnamon";
+    final String cinnamon = "Cinna";
     final String nutmeg = "Nutmeg";
-    final String marshMal = "Marsh Mallows";
-    final String whipCream = "Whipped Cream";
+    final String marshMal = "Mallows";
+    final String whipCream = "Cream";
  //   static Coins coins = null;
     public Machine(/*PostResult result*/){
         // there are more addon possibilities than buttons; each selection will
